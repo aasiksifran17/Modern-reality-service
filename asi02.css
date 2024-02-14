@@ -1,0 +1,272 @@
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    
+  }
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+
+  .logobg{
+    background: linear-gradient(to right, #0eb7f0 0%, #ff0066 100%);
+    padding: 0px;
+    
+  }
+  .img{
+    width: 80px
+  }
+
+  .log{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-bottom: 5px;
+    
+  }
+.log2{
+    border-radius: 1px solid rgb(247, 9, 9);
+    padding-top: 30px;
+    padding-left: 30px;
+    
+}
+.log:hover{
+    background-color: aqua;
+    border-radius: 20px solid ;
+}
+
+.search{
+    margin-top: 40px;
+    background-color:  rgb(10, 10, 94);
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+.navi{
+    text-decoration: none;
+    background-color: rgb(2, 2, 36);
+    color: white;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+    
+}
+
+.home:hover{
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  border-radius: 150px solid ;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.im{
+  background-image: url(100.jpg);
+  height: 1000px;
+  width: 1333px;
+  margin-top: 0px;
+  margin-bottom: 200px;
+  
+}
+.color{
+  color: rgb(0, 0, 0)
+  
+}
+
+.text{
+  margin-top: 350px;
+}
+.imgbbb{
+  width: 150px;
+  height: 100px;
+}
+
+.imgbbb1{
+  width: 150px;
+  height: 60px;
+}
+
+.imgbbb2{
+  width: 100px;
+  height: 80px;
+}
+  
+
+.color1{
+  color: gold;
+}
+
+.table{
+  border: 2px solid blue;
+  margin-top: 400px;
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.send{
+  text-decoration: none;
+color: white;
+padding-right: 25px;
+background-color: deepskyblue; 
+border-style: solid;
+border-radius: 5px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 80px;
+padding-right: 80px;
+border: none;
+margin-top: 50px;
+}
+.color3{
+  color: blue;
+}
+
+.color5{
+  color: white;
+}
+.bg{
+  background-color: rgb(107, 161, 211);
+  
+  
+}
+.bg1{
+  background-color: rgb(25, 83, 138);
+}
+
+.send1{
+  text-decoration: none;
+color: white;
+padding-right: 25px;
+background-color: deepskyblue; 
+border-style: solid;
+border-radius: 5px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 30px;
+padding-right: 30px;
+border: none;
+margin-top: 50px;
+}
+
+.pad{
+  padding-left: 25px;
+}
+
+
+.wi{
+  width: 80%;
+}
+.g{
+  color: white;
+  background-color: rgb(0, 217, 255);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 217, 255);
+  box-shadow: 205px;
+}
+.bor{
+  border-left: 1px solid black;
+  padding-left: 30px;
+}
+.bd{
+  color: white;
+  color: white;
+}
+.haha{
+  border: 1px solid black;
+  padding-top: 20px;
+  box-shadow: gray 25px;
+  
+}
+
+.color3{
+  color: #0eb7f0  ;
+}
+
+.last{
+  background-color: rgb(80, 28, 82);
+  padding-top: 25px;
+  margin-top: 0px;
+}
+
+.lastnavi:hover{
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  font-weight: bold;
+  
+
+}
+
+.lastpadd{
+  font-size: 25px;
+  font-family: fantasy;
+  
+}
+
+.email{
+  width: 120px;
+  
+}
+.whatsapp{
+  width: 80px;
+  padding-left: 10px;
+}
+.facebook{
+  width: 80px;
+  padding-left: 10px;
+}
+.insta{
+  width: 80px;
+  padding-left: 10px;
+
+
+}
+.tiktok{
+  width: 80px;
+  padding-left: 10px;
+}
+
+.logolast{
+  width: 100px;
+  margin-top: 40px;
+  padding-bottom: 25px;
+}
+
+.textboc{
+  width: 180px;
+  height: 15px;
+}
